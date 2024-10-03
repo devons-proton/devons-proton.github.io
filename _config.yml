@@ -13,12 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "ProtonBlog"
-email: "devon.shelton@protonmail.com"
-description: "Personal blog for a University of Washington Engineering student."
-github_username: devons-proton
-minimal_mistakes_skin: neon
-search: true
+title                   : "ProtonBlog"
+email                   : "devon.shelton@protonmail.com"
+description             : "Personal blog for a University of Washington Engineering student."
+github_username         : "devons-proton"
+minimal_mistakes_skin   : "neon"
+search                  : true
 
 # Build settings
 markdown: kramdown
@@ -46,43 +46,41 @@ include:
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-include-cache
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-gist
+    - jekyll-feed
+    - jemoji
+    - jekyll-include-cache
 
 author:
     name: "Devon Shelton"
     avatar: "/assets/images/me.jpg"
     location: "Seattle, WA"
-  links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
-
+    links:
+        - label: "Website"
+            icon: "fas fa-fw fa-link"
+            url: "https://"
+        - label: "Twitter"
+            icon: "fab fa-fw fa-twitter-square"
+            url: "https://twitter.com/"
+        - label: "GitHub"
+            icon: "fab fa-fw fa-github"
+            url: "https://github.com/"
+        - label: "Instagram"
+            icon: "fab fa-fw fa-instagram"
+            url: "https://instagram.com/"
 footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
-
+    links:
+        - label: "Twitter"
+            icon: "fab fa-fw fa-twitter-square"
+            url: "https://twitter.com/"
+        - label: "GitHub"
+            icon: "fab fa-fw fa-github"
+            url: "https://github.com/"
+        - label: "Instagram"
+            icon: "fab fa-fw fa-instagram"
+            url: "https://instagram.com/"
 defaults:
   # _posts
   - scope:
